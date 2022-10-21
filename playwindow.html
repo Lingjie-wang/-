@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       <link rel="stylesheet" href="css/myvideo.css" text="text/css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="playwindow"class="playwindow">
+            <div id="fullback"class="fullback">
+                <div id="playbox"class="playbox">
+                    <div id="videobox"class="videobox">
+                        <video id="vd" src="play.mp4" width="600"></video>
+                        <div id="vplay" class="vplay"><b><i></i></b></div>
+                    </div>
+                    <div id="progress"class="progress"><div id="now" class="now"></div></div>
+                    <div class="consoles">
+                        <div class="group1">
+                            <!--控件组1-->
+                            <div id="play" class="play"><i></i></div>
+                            <div id="stop" class="stop"></div>
+                            <div class="time">
+                                <span id="ctime"></span> / <span id="dtime"></span>
+                            </div>
+                        </div>
+                        <div class="group2">
+                            <!--控件组2-->
+                            <div id="speed" class="speed">
+                                <div id="curspeed">倍速&times;1</div>
+                                <div id="speed_list" class="speed_list">
+                                    <div value="2">&times;2</div>
+                                    <div value="1.5">&times;1.5</div>
+                                    <div value="1.25">&times;1.25</div>
+                                    <div value="1">&times;1</div>
+                                    <div value="0.75">&times;0.75</div>
+                                    <div value="0.5">&times;0.5</div>
+                                </div>
+                            </div>
+                            <div id="mute" class="mute" title="静音"><i></i></div>
+                            <div id="volume" class="volume">
+                                <div id="vnow" class="vnow"></div>
+                                <div id="slider"class="slider"></div>
+                            </div>
+                            <div id="theatermode" class="theatermode" title="剧场模式"></div>
+                            <div id="widescreen" class="widescreen"title="宽屏模式"><i></i></div>
+                            <div id="fullscreen" class="fullscreen" title="全屏"><i></i></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            <aside id="maside" class="maside"></aside>
+            
+        </div>
+        <div style="height: 1000px;"></div>
+        <script src="js/myvideo.js"></script>
+        
+    </body>
+    </html>
